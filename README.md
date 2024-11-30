@@ -1,4 +1,4 @@
-![Screenshot 2024-12-01 001219](https://github.com/user-attachments/assets/81c2af93-b38b-4d6c-aeff-859d6e253d77)# login-Signup-Page
+# login-Signup-Page
 Login / Signup Page With Glassmorphic / Blur Filter
 
 # Screenshots:
