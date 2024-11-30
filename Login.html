@@ -3,133 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <title>Login</title>
+<link href="style1.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 </head>
-<style>
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: "Lora", serif;
-    }
-    body{
-        display: flex;
-        background:url(img3.jpg) no-repeat; /*Replace With A Image*/
-        background-size:cover;
-        justify-content: center;
-        background-position: center;
-       align-items: center;
-        min-height: 100vh;
-      
-    }
-    
-.box{
-    width: 420px;
-    text-align: center;
-    justify-content: center;
-    background: transparent;
-    border: 2px solid rgba(255,255,255,.2);
-    backdrop-filter: blur(20px);
-    box-shadow: 0 0 10px rgba(255,255,255,.2);
-    border-radius: 10%;
-    padding:30px 40px ;
-}
-.input-box{
-    width:100%;
-    height: 50px;
-   
-    margin: 30px 0;
-}
-.input-box input{
-    width: 100%;
-    height: 100%;
-    border: none;
-    
-    outline:none;
-    border: 2px solid rgba(255, 255, 255, .2);
-    border-radius: 40px;
-    font-size: 16px;
-    color: #fff;
-    padding: 20px 45px 20px 20px;
-}
-.input-box::placeholder{
-    color: #fff;
-}
-.remember{
-    display: flex;
-    justify-content: space-between;
-    font-size: 14.5px;
-    margin: -15px 0 15px;
-}
-.remember label input{
-    margin-right: 3px;
-    color: #fff;
-}
-.remember a{
-    text-decoration: none;
-    color: #fff;
-}
-.remember a:hover{
-    text-decoration: underline;
-}
-.btn{
-    width: 100%;
-    height: 45px;
-    border: none;
-    outline: none;
-    border-radius: 40px;
-    background: #fff;
-    cursor: pointer;
-    box-shadow: 0 0 10px rgba(0,0,0,.1);
-    font-size: 16px;
-    color:#333;
-    font-weight: 600;
-
-}
-.register{
-    font-size: 14.5px;
-    color: #fff;
-    text-align: center;
-    margin:20px 0 15px;
-
-}
-.register p a{
-    text-decoration: none;
-    color: #fff;
-    font-weight: 600;
-}
-.register p a:hover{
-    text-decoration: underline;
-}
-.box h1{
-    color:#fff
-}
-</style>
-
-
-<body>  
-  
-        <div class="box">    
-                <h1>Login</h1>
-                <div class="input-box">
-        <input type="text" placeholder="   Enter Your Email"  >
+<body>
+    <div class="box"> 
+        <h1 style="color: white;">Login</h1>
+    <div class="input-box">
+        <input type="email" placeholder="Enter Your Email">
     </div>
-      
-        <div class="input-box">
-        <input type="password" placeholder="  Password" >
-    </div>
-      
-        <div class="remember">
-        <label style="color: white; font-size: 17px;"><input type="checkbox"> Remember Me</label>
-        <a href="#">Forget Password?</a>
-    </div>
-    <button class="btn" >Login</button>
-    <div class="register">
-        <p>Dont Have A Account? <a href="#">Register</a></p>
-    </div>
+    <div class="input-box">
+        <input type="password" placeholder="Password">
+   </div>
+   <div class="remember">
+    <label><input type="checkbox"> Remember Me</label>
+    <a href="#">Forgot Password?</a>
+   </div>   
+   <button class="btn">Login</button>
+   <div class="register">
+    <p>Dont Have A Account? <a href="#">Register</a> </p>
+   </div>
+</div>
 
 </body>
 </html>
