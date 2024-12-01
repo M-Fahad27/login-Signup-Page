@@ -1,5 +1,5 @@
-# login-Signup-Page
-Login / Signup Page With Glassmorphic / Blur Filter
+# login-Signup-Form
+Login / Signup Form With Glassmorphic / Blur Filter
 
 # Screenshots:
 Signup Page:
